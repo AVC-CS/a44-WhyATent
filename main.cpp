@@ -11,6 +11,18 @@ int main()
         cout << "3. Orange\n" ;
         cout << "4. None of them\n";
         cin >> selection;
-// TODO
-// TODO
+        switch (selection){
+                case 1: 
+                        cout << "Menu 1 selected" << endl;
+                        break;
+                case 2: 
+                        cout << "Menu 2 selected" << endl;
+                        break;
+                case 3: 
+                        cout << "Menu 3 selected" << endl;
+                        break;
+                case 4: 
+                        cout << "Menu 4 selected" << endl;
+                        break;
+        }
 }
