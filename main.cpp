@@ -24,5 +24,8 @@ int main()
                 case 4: 
                         cout << "Menu 4 selected" << endl;
                         break;
+                default:
+                        cout << "Wrong menu item" << endl;
+                        break;
         }
 }
